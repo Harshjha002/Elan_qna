@@ -1,0 +1,13 @@
+package com.elan.ElanQnA;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class ElanQnAApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(ElanQnAApplication.class, args);
+	}
+
+}
