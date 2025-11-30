@@ -12,6 +12,4 @@ import reactor.core.publisher.Mono;
 @Repository
 public interface QuestionRepository extends ReactiveMongoRepository<Question,String> {
 
-    Flux<Question> findByAuthorId(String authorId);
-    Mono<Long> countByAuthorId(String authorId);
 }
